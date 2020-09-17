@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "loginUrl",
+      "type": "java.lang.String",
+      "description": "Description for loginUrl."
+  }
+] }

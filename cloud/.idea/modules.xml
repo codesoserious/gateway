@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/consulclient8889/consulclient8889.iml" filepath="$PROJECT_DIR$/consulclient8889/consulclient8889.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaclient8888/eurekaclient8888.iml" filepath="$PROJECT_DIR$/eurekaclient8888/eurekaclient8888.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver8761/eurekaserver8761.iml" filepath="$PROJECT_DIR$/eurekaserver8761/eurekaserver8761.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway7777/gateway7777.iml" filepath="$PROJECT_DIR$/gateway7777/gateway7777.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hellospringcloud/hellospringcloud.iml" filepath="$PROJECT_DIR$/hellospringcloud/hellospringcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test1consul8890/test1consul8890.iml" filepath="$PROJECT_DIR$/test1consul8890/test1consul8890.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test2consul8891/test2consul8891.iml" filepath="$PROJECT_DIR$/test2consul8891/test2consul8891.iml" />
+    </modules>
+  </component>
+</project>

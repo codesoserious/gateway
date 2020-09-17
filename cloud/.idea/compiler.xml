@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test1consul8890" />
+        <module name="eurekaclient8888" />
+        <module name="hellospringcloud" />
+        <module name="gateway7777" />
+        <module name="test2consul8891" />
+        <module name="consulclient8889" />
+        <module name="eurekaserver8761" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consulclient8889" target="1.8" />
+      <module name="eurekaclient8888" target="1.8" />
+      <module name="eurekaserver8761" target="1.8" />
+      <module name="gateway7777" target="1.8" />
+      <module name="hellospringcloud" target="1.8" />
+      <module name="test1consul8890" target="1.8" />
+      <module name="test2consul8891" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consulclient8889" options="-parameters" />
+      <module name="eurekaclient8888" options="-parameters" />
+      <module name="eurekaserver8761" options="-parameters" />
+      <module name="hellospringcloud" options="-parameters" />
+      <module name="test1consul8890" options="-parameters" />
+    </option>
+  </component>
+</project>

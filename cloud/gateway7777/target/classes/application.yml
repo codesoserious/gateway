@@ -1,0 +1,30 @@
+server:
+  port: 7777
+spring:
+  application:
+    name: gateway7777
+  cloud:
+    consul:
+      discovery:
+        register-health-check: true
+        service-name: ${spring.application.name}
+      port: 8500
+      host: localhost
+    gateway:
+      discovery:
+        locator:
+          enabled: true #开启根据服务名动态获取路由地址
+      routes:
+        - id: products
+          uri: lb://consul-test
+          predicates:
+            - Path=/products/**,/orders/**
+        #          filters:
+        #            - AddRequestParameter=
+        - id: users
+          uri: lb://consul-users
+          predicates:
+            - Path=/users/**
+#自己配置的登录路径地址
+login:
+  url: /users/login
